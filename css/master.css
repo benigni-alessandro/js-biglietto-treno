@@ -1,0 +1,43 @@
+body{
+  height: 100vh;
+  background-image: url('../img/tren.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+h1{
+  font-size: 60px;
+  color: red;
+}
+.ricevuta{
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  text-align: center;
+}
+.dati{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.dati-utente{
+  display: flex;
+  flex-direction: column;
+}
+.dati-ricevuta{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.treno img{
+  position: absolute;
+  top: 84%;
+  left: 0;
+}
